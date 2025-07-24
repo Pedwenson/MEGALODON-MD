@@ -13,7 +13,7 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~WE0kHToK#C6-YwDTU9mOt0d-fMtF6h7bShveOJnW87I-n7qpxtJ0",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "MEGALODON-MD",  // Bot's display name
     MODE: process.env.MODE || "private",        // Bot mode: public/private/group/inbox
@@ -22,7 +22,7 @@ module.exports = {
     
     OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Zetsu Cia",           // Owner's name
     
-    DEV: process.env.DEV || "50948336180",                     // Developer's contact number
+    DEV: process.env.DEV || "18297235518",                     // Developer's contact number
     
     // ===== AUTO-RESPONSE SETTINGS =====
     
@@ -68,7 +68,7 @@ module.exports = {
 
     // ===== BOT BEHAVIOR & APPEARANCE =====
    
-    PUBLIC_MODE: process.env.PUBLIC_MODE || "false",     
+    PUBLIC_MODE: process.env.PUBLIC_MODE || "true",     
     // Allow public commands?
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
     // Show bot as always online?
